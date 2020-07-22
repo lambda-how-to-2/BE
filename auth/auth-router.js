@@ -55,11 +55,11 @@ router.post('/login', async (req, res, next) => {
             userRole: "normal"
         }
 
-        res.header("token", jwt.sign(payload, process.env.JWT_SECRET))
-        //const token = jwt.sign(payload, process.env.JWT_SECRET)
+        // res.cookie("token", jwt.sign(payload, process.env.JWT_SECRET))
+        const token = jwt.sign(payload, process.env.JWT_SECRET)
         res.json({
-            message: `Welcome ${user.username}!`,
-            // token: token //included for testing purposes only
+            message: `Welcome ${user.email}!`,
+            token: token //included for testing purposes only
         })
     } catch (e) {
         next(e)
