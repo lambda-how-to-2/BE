@@ -39,14 +39,14 @@ router.post("/", (req, res) => {
 		});
 });
 
-router.put("/:id", async (req, res, next) => {
-	try {
-		const lifehack = await Howtodos.update(req.params.id, req.body);
-		res.json(lifehack);
-	} catch (err) {
-		next(err);
-	}
-});
+// router.put("/:id", async (req, res, next) => {
+// 	try {
+// 		const lifehack = await Howtodos.update(req.params.id, req.body);
+// 		res.json(lifehack);
+// 	} catch (err) {
+// 		next(err);
+// 	}
+// });
 
 router.put("/:id", (req, res) => {
 	const { id } = req.params;
