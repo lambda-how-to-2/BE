@@ -58,8 +58,8 @@ router.post('/login', async (req, res, next) => {
         res.header("token", jwt.sign(payload, process.env.JWT_SECRET))
         //const token = jwt.sign(payload, process.env.JWT_SECRET)
         res.json({
-            message: `Welcome ${user.username}!`,
-            // token: token //included for testing purposes only
+            message: `Welcome ${user.email}!`,
+            token: jwt.sign(payload, process.env.JWT_SECRET)
         })
     } catch (e) {
         next(e)

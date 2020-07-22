@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
 
+const auth = require("../auth/auth-middleware");
 const welcomeRouter = require("../howtodos/welcome");
 const HowtodosRouter = require("../howtodos/howtodos-router");
 const authRouter = require("../auth/auth-router");

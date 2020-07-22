@@ -39,14 +39,14 @@ router.post("/", (req, res) => {
 		});
 });
 
-router.put("/:id", async (req, res, next) => {
-	try {
-		const lifehack = await Howtodos.update(req.params.id, req.body);
-		res.json(lifehack);
-	} catch (err) {
-		next(err);
-	}
-});
+// router.put("/:id", async (req, res, next) => {
+// 	try {
+// 		const lifehack = await Howtodos.update(req.params.id, req.body);
+// 		res.json(lifehack);
+// 	} catch (err) {
+// 		next(err);
+// 	}
+// });
 
 router.put("/:id", (req, res) => {
 	const { id } = req.params;
@@ -55,17 +55,17 @@ router.put("/:id", (req, res) => {
 	Howtodos.findById(id)
 		.then((lifehack) => {
 			if (lifehack) {
-				Howtodos.update(changes, id).then((updatedLifehack) => {
-					res.json(updatedLifehack);
+				Howtodos.update(changes, id).then((changed) => {
+					res.json(changed);
 				});
 			} else {
 				res
 					.status(404)
-					.json({ message: "Could not find lifehack with given id" });
+					.json({ message: "Could not find life hack with given id" });
 			}
 		})
 		.catch((err) => {
-			res.status(500).json({ message: "Failed to update lifehack" });
+			res.status(500).json({ message: "Failed to update life hack" });
 		});
 });
 

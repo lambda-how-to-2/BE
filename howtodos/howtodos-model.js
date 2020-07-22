@@ -8,16 +8,16 @@ function findById(ID) {
 	return db("howtodos").where("howtodos.id", ID).first();
 }
 
-function add(howtodo) {
+function add(lifehack) {
 	return db("howtodos")
-		.insert(howtodo)
+		.insert(lifehack)
 		.then((id) => {
 			return findById(id[0]);
 		});
 }
 
-function update(howtodo, ID) {
-	return db("howtodos").where({ id: ID }).update(howtodo);
+function update(lifehack, ID) {
+	return db("howtodos").where({ id: ID }).update(lifehack);
 }
 
 function remove(ID) {
