@@ -1,35 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5be705e9-52a5-49b8-ba7d-a76c6a1a8b00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="9b93fcb1-03f1-4ca2-ba21-4469e38cfaaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/BE-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/auth-middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth-middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/auth-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth-model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/auth-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/howtodos.db3" beforeDir="false" afterPath="$PROJECT_DIR$/database/howtodos.db3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="development" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1f3AGB6OW93mjqDLhAOb1zwtDvS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1f3GqIwYj0EfChzrbtOHtEV0Gjo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,53 +39,28 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5be705e9-52a5-49b8-ba7d-a76c6a1a8b00" name="Default Changelist" comment="" />
-      <created>1595436303203</created>
+      <changelist id="9b93fcb1-03f1-4ca2-ba21-4469e38cfaaa" name="Default Changelist" comment="" />
+      <created>1595439551862</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1595436303203</updated>
-      <workItem from="1595436308588" duration="2341000" />
+      <updated>1595439551862</updated>
+      <workItem from="1595439553383" duration="3149000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial Commit for Dev branch">
-      <created>1595436685119</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1595436685119</updated>
-    </task>
-    <task id="LOCAL-00002" summary="cross-env testing environment configured, auth router started">
-      <created>1595437905373</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1595437905373</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit for Dev branch" />
-    <MESSAGE value="cross-env testing environment configured, auth router started" />
-    <option name="LAST_COMMIT_MESSAGE" value="cross-env testing environment configured, auth router started" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="790" y="35" key="CommitChangelistDialog2" timestamp="1595437903950">
+    <state x="422" y="303" key="git4idea.merge.GitPullDialog" timestamp="1595440235633">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="790" y="35" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595437903950" />
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595437910631">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595437910631" />
+    <state x="422" y="303" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595440235633" />
   </component>
 </project>
