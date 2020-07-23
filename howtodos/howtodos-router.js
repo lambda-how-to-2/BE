@@ -4,32 +4,27 @@ const Howtodos = require("./howtodos-model.js");
 
 const router = express.Router();
 
-router.get("/", (req, res) => {
-	Howtodos.find()
-		.then((lifehack) => {
-			res.json(lifehack);
-		})
-		.catch((err) => {
-			res.status(500).json({ message: "Failed to get schemes" });
-		});
+router.get("/", async (req, res, next) => {
+	try {
+		const lifehacks = await Howtodos.find();
+		res.json(lifehacks);
+	} catch (err) {
+		next(err);
+	}
 });
 
-router.get("/:id", (req, res) => {
-	const { id } = req.params;
-
-	Howtodos.findById(id)
-		.then((lifehack) => {
-			if (lifehack) {
-				res.json(lifehack);
-			} else {
-				res
-					.status(404)
-					.json({ message: "Could not find lifehack with given id." });
-			}
-		})
-		.catch((err) => {
-			res.status(500).json({ message: "Failed to get lifehacks" });
-		});
+router.get("/:id", async (req, res, next) => {
+	try {
+		const lifehack = await Howtodos.findById(req.params.id);
+		if (!lifehack) {
+			return res.status(404).json({
+				message: "No lifehack is found.",
+			});
+		}
+		res.json(lifehack);
+	} catch (err) {
+		next(err);
+	}
 });
 
 router.post("/", (req, res) => {
@@ -43,6 +38,15 @@ router.post("/", (req, res) => {
 			res.status(500).json({ message: "Failed to create new lifehack" });
 		});
 });
+
+// router.put("/:id", async (req, res, next) => {
+// 	try {
+// 		const lifehack = await Howtodos.update(req.params.id, req.body);
+// 		res.json(lifehack);
+// 	} catch (err) {
+// 		next(err);
+// 	}
+// });
 
 router.put("/:id", (req, res) => {
 	const { id } = req.params;
