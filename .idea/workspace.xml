@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b93fcb1-03f1-4ca2-ba21-4469e38cfaaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__tests__/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/howtodos-test.db3" beforeDir="false" afterPath="$PROJECT_DIR$/database/howtodos-test.db3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/howtodos/howtodos-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/howtodos/howtodos-router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +21,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1f3GqIwYj0EfChzrbtOHtEV0Gjo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -71,17 +77,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="Working backend API!!!!!" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="759" y="183" key="#Notifications" timestamp="1595459364001">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="759" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1595459364001" />
     <state x="790" y="33" key="CommitChangelistDialog2" timestamp="1595442730721">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="790" y="33" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595442730721" />
+    <state x="983" y="162" key="RollbackChangesDialog" timestamp="1595459414223">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="983" y="162" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595459414223" />
     <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595442739090">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595442739090" />
-    <state x="422" y="303" key="git4idea.merge.GitPullDialog" timestamp="1595440235633">
+    <state x="422" y="303" key="git4idea.merge.GitPullDialog" timestamp="1595459440008">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="422" y="303" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595440235633" />
+    <state x="422" y="303" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595459440008" />
   </component>
 </project>
