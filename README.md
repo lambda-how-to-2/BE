@@ -2,7 +2,7 @@
 How to do lifehacks back end! Good luck all! 
 # Documentation:
 # Base URL for Deployed API
-Coming soon!!!
+https://how-to-2-team-win.herokuapp.com/api
 # Endpoints
 | Request | URL | Description |
 | ------- | --- | ----------- |
