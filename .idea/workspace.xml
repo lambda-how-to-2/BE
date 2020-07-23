@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595463894444</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed cross-env from start script">
+      <created>1595464013796</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595464013796</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,17 +110,18 @@
     <MESSAGE value="added node version to package.json" />
     <MESSAGE value="added node modules to .gitignore" />
     <MESSAGE value="updated production to development" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated production to development" />
+    <MESSAGE value="removed cross-env from start script" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed cross-env from start script" />
   </component>
   <component name="WindowStateProjectService">
     <state x="759" y="183" key="#Notifications" timestamp="1595459364001">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="759" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1595459364001" />
-    <state x="790" y="33" key="CommitChangelistDialog2" timestamp="1595463892894">
+    <state x="790" y="33" key="CommitChangelistDialog2" timestamp="1595464012458">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="790" y="33" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595463892894" />
+    <state x="790" y="33" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595464012458" />
     <state x="368" y="87" key="MergeDialog" timestamp="1595463107813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -126,10 +134,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="983" y="162" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595459414223" />
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595463899332">
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595464022259">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595463899332" />
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595464022259" />
     <state x="422" y="303" key="git4idea.merge.GitPullDialog" timestamp="1595459440008">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
