@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b93fcb1-03f1-4ca2-ba21-4469e38cfaaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knexfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/knexfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595463525314</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated production to development">
+      <created>1595463743994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595463743994</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated production to development">
+      <created>1595463894444</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595463894444</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,17 +102,18 @@
     <MESSAGE value="Working backend API!!!!!" />
     <MESSAGE value="added node version to package.json" />
     <MESSAGE value="added node modules to .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added node modules to .gitignore" />
+    <MESSAGE value="updated production to development" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated production to development" />
   </component>
   <component name="WindowStateProjectService">
     <state x="759" y="183" key="#Notifications" timestamp="1595459364001">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="759" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1595459364001" />
-    <state x="790" y="33" key="CommitChangelistDialog2" timestamp="1595463742543">
+    <state x="790" y="33" key="CommitChangelistDialog2" timestamp="1595463892894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="790" y="33" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595463742543" />
+    <state x="790" y="33" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595463892894" />
     <state x="368" y="87" key="MergeDialog" timestamp="1595463107813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -111,10 +126,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="983" y="162" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595459414223" />
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595463748843">
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595463899332">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595463748843" />
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595463899332" />
     <state x="422" y="303" key="git4idea.merge.GitPullDialog" timestamp="1595459440008">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
