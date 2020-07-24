@@ -43,6 +43,15 @@ router.get("/:id/ratings", async (req, res, next) => {
 	}
 });
 
+router.post("/id/ratings", async (req, res, next) => {
+	try {
+		const newRating = await Howtodos.addRating(req.body);
+		res.json(newRating);
+	} catch (err) {
+		next(err);
+	}
+});
+
 router.post("/", (req, res) => {
 	const newLifehack = req.body;
 

@@ -37,6 +37,10 @@ function findRatingBy(ID) {
 		.select("r.id");
 }
 
+function addRating(rating) {
+	return db("ratings as r").insert(rating).then((id) => { return findRatingBy(id[0]) })
+}
+
 module.exports = {
 	find,
 	findById,
@@ -45,4 +49,5 @@ module.exports = {
 	update,
 	findRatingBy,
 	findRating,
+	addRating
 };
