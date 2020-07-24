@@ -27,6 +27,16 @@ router.get("/:id", async (req, res, next) => {
 	}
 });
 
+router.get("/:id/raitings", async (res, req, next) => {
+	
+	try {
+		const raiting = await Howtodos.findRaiting(req.params.id);
+		res.json(raiting)
+	} catch (err) {
+		next (err)
+	}
+});
+
 router.post("/", (req, res) => {
 	const newLifehack = req.body;
 
@@ -38,15 +48,6 @@ router.post("/", (req, res) => {
 			res.status(500).json({ message: "Failed to create new lifehack" });
 		});
 });
-
-// router.put("/:id", async (req, res, next) => {
-// 	try {
-// 		const lifehack = await Howtodos.update(req.params.id, req.body);
-// 		res.json(lifehack);
-// 	} catch (err) {
-// 		next(err);
-// 	}
-// });
 
 router.put("/:id", (req, res) => {
 	const { id } = req.params;

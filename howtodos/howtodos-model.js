@@ -23,6 +23,17 @@ function update(howtodo, ID) {
 function remove(ID) {
 	return db("howtodos").where({ id: ID }).del();
 }
+function findRating() {
+	return db("raitings as r")
+		.leftJoin("howtodos as h", "h.id", "r.howtodos_id")
+		.select("r.id");
+}
+function findRaitingBy(ID) {
+	return db("raitings as r")
+		.where("r.id", ID)
+		.leftJoin("howtodos as h", "h.id", "r.howtodos_id")
+		.first("r.id");
+}
 
 module.exports = {
 	find,
@@ -30,4 +41,6 @@ module.exports = {
 	remove,
 	add,
 	update,
+	findRaitingBy,
+	findRating,
 };
