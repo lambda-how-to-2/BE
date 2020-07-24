@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b93fcb1-03f1-4ca2-ba21-4469e38cfaaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="development" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595464013796</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="reseed database">
+      <created>1595627565872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595627565872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,17 +127,19 @@
     <MESSAGE value="updated production to development" />
     <MESSAGE value="removed cross-env from start script" />
     <MESSAGE value="reseed database" />
-    <option name="LAST_COMMIT_MESSAGE" value="reseed database" />
+    <MESSAGE value="test" />
+    <MESSAGE value="database added" />
+    <option name="LAST_COMMIT_MESSAGE" value="database added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="759" y="183" key="#Notifications" timestamp="1595459364001">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="759" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1595459364001" />
-    <state x="790" y="0" key="CommitChangelistDialog2" timestamp="1595627375461">
+    <state x="790" y="0" key="CommitChangelistDialog2" timestamp="1595627752647">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="790" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595627375461" />
+    <state x="790" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595627752647" />
     <state x="368" y="87" key="MergeDialog" timestamp="1595463107813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -144,10 +152,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="983" y="162" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595459414223" />
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595464418545">
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595627773960">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595464418545" />
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595627773960" />
     <state x="1247" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595627528344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
