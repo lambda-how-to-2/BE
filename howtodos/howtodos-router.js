@@ -21,19 +21,25 @@ router.get("/:id", async (req, res, next) => {
 				message: "No lifehack is found.",
 			});
 		}
+		console.log(req.params.id);
 		res.json(lifehack);
 	} catch (err) {
 		next(err);
 	}
 });
 
-router.get("/:id/raitings", async (res, req, next) => {
-	
+router.get("/:id/ratings", async (req, res, next) => {
 	try {
-		const raiting = await Howtodos.findRaiting(req.params.id);
-		res.json(raiting)
+		const rating = await Howtodos.findRatingBy(req.params.id);
+
+		if (!rating) {
+			return res.status(404).json({
+				message: "No rating is found.",
+			});
+		}
+		res.json(rating);
 	} catch (err) {
-		next (err)
+		next(err);
 	}
 });
 

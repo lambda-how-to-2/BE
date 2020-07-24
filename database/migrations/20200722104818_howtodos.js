@@ -6,12 +6,12 @@ exports.up = async function (knex) {
 			table.string("author").notNullable();
 			table.text("description").notNullable();
 		})
-		.createTable("raitings", (table) => {
+		.createTable("ratings", (table) => {
 			table.increments();
-			table.int("raiting").notNullable();
+			table.integer("rating").notNullable();
 			table.text("description");
 			table
-				.int("howtodos_id")
+				.integer("howtodos_id")
 				.unsigned()
 				.notNullable()
 				.references("id")
@@ -20,7 +20,7 @@ exports.up = async function (knex) {
 				.onDelete("CASCADE");
 
 			table
-				.int("user_id")
+				.integer("user_id")
 				.unsigned()
 				.notNullable()
 				.references("id")
