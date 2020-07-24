@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b93fcb1-03f1-4ca2-ba21-4469e38cfaaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/seeds/02-users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings/ratings-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/howtodos.db3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/20200722104818_howtodos.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/20200722104818_howtodos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/20200722122400_users.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/20200722122400_users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/02-raitings.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/03-ratings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/howtodos/howtodos-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/howtodos/howtodos-model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/howtodos/howtodos-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/howtodos/howtodos-router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +24,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1f3GqIwYj0EfChzrbtOHtEV0Gjo" />
   <component name="ProjectLevelVcsManager">
@@ -128,17 +120,18 @@
     <MESSAGE value="added node modules to .gitignore" />
     <MESSAGE value="updated production to development" />
     <MESSAGE value="removed cross-env from start script" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed cross-env from start script" />
+    <MESSAGE value="reseed database" />
+    <option name="LAST_COMMIT_MESSAGE" value="reseed database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="759" y="183" key="#Notifications" timestamp="1595459364001">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="759" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1595459364001" />
-    <state x="790" y="33" key="CommitChangelistDialog2" timestamp="1595464413634">
+    <state x="790" y="0" key="CommitChangelistDialog2" timestamp="1595627375461">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="790" y="33" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595464413634" />
+    <state x="790" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595627375461" />
     <state x="368" y="87" key="MergeDialog" timestamp="1595463107813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -155,10 +148,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595464418545" />
+    <state x="1247" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595627528344">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1247" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595627528344" />
+    <state x="1236" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1595627444984">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1236" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595627444984" />
     <state x="422" y="303" key="git4idea.merge.GitPullDialog" timestamp="1595459440008">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="422" y="303" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595459440008" />
+    <state x="1229" y="371" key="git4idea.rebase.GitRebaseDialog" timestamp="1595627429712">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1229" y="371" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595627429712" />
+    <state x="1248" y="415" key="git4idea.ui.GitResetDialog" timestamp="1595627555608">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1248" y="415" key="git4idea.ui.GitResetDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595627555608" />
+    <state x="1256" y="424" key="git4idea.ui.GitStashDialog" timestamp="1595627501641">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1256" y="424" key="git4idea.ui.GitStashDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595627501641" />
     <state x="1016" y="245" key="run.anything.popup" timestamp="1595463699961">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
