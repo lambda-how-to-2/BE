@@ -27,15 +27,15 @@ router.get("/:id", async (req, res, next) => {
 	}
 });
 
-router.get("/:id/raitings", async (res, req, next) => {
-	
-	try {
-		const raiting = await Howtodos.findRaiting(req.params.id);
-		res.json(raiting)
-	} catch (err) {
-		next (err)
-	}
-});
+// router.get("/:id/ratings/:id", async (res, req, next) => {
+//
+// 	try {
+// 		const rating = await Howtodos.findRatingBy(req.params.id);
+// 		res.json(rating)
+// 	} catch (err) {
+// 		next (err)
+// 	}
+// });
 
 router.post("/", (req, res) => {
 	const newLifehack = req.body;

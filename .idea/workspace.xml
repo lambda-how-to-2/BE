@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b93fcb1-03f1-4ca2-ba21-4469e38cfaaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/seeds/02-users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings/ratings-router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/howtodos.db3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/20200722104818_howtodos.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/20200722104818_howtodos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/20200722122400_users.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/20200722122400_users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/02-raitings.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/03-ratings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/howtodos/howtodos-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/howtodos/howtodos-model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/howtodos/howtodos-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/howtodos/howtodos-router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -56,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595439551862</updated>
       <workItem from="1595439553383" duration="3868000" />
+      <workItem from="1595621547559" duration="4977000" />
     </task>
     <task id="LOCAL-00001" summary="Working backend API!!!!!">
       <created>1595442732701</created>

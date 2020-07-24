@@ -6,32 +6,33 @@ exports.up = async function (knex) {
 			table.string("author").notNullable();
 			table.text("description").notNullable();
 		})
-		.createTable("raitings", (table) => {
+		.createTable("ratings", (table) => {
 			table.increments();
-			table.int("raiting").notNullable();
+			table.integer("rating");
 			table.text("description");
 			table
-				.int("howtodos_id")
+				.integer("howtodos_id")
 				.unsigned()
 				.notNullable()
 				.references("id")
 				.inTable("howtodos")
+				.onDelete("RESTRICT")
 				.onUpdate("CASCADE")
-				.onDelete("CASCADE");
 
 			table
-				.int("user_id")
+				.integer("user_id")
 				.unsigned()
 				.notNullable()
 				.references("id")
 				.inTable("users")
+				.onDelete("RESTRICT")
 				.onUpdate("CASCADE")
-				.onDelete("CASCADE");
+
 		});
 };
 
 exports.down = function (knex) {
 	return knex.schema
-		.dropTableIfExists("raitings")
+		.dropTableIfExists("ratings")
 		.dropTableIfExists("howtodos");
 };
