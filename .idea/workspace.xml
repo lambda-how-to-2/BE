@@ -3,20 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="9b93fcb1-03f1-4ca2-ba21-4469e38cfaaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="development" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1f3GqIwYj0EfChzrbtOHtEV0Gjo" />
   <component name="ProjectLevelVcsManager">
@@ -56,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595439551862</updated>
       <workItem from="1595439553383" duration="3868000" />
+      <workItem from="1595621547559" duration="4977000" />
     </task>
     <task id="LOCAL-00001" summary="Working backend API!!!!!">
       <created>1595442732701</created>
@@ -99,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595464013796</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="reseed database">
+      <created>1595627565872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595627565872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,17 +126,20 @@
     <MESSAGE value="added node modules to .gitignore" />
     <MESSAGE value="updated production to development" />
     <MESSAGE value="removed cross-env from start script" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed cross-env from start script" />
+    <MESSAGE value="reseed database" />
+    <MESSAGE value="test" />
+    <MESSAGE value="database added" />
+    <option name="LAST_COMMIT_MESSAGE" value="database added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="759" y="183" key="#Notifications" timestamp="1595459364001">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="759" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1595459364001" />
-    <state x="790" y="33" key="CommitChangelistDialog2" timestamp="1595464413634">
+    <state x="790" y="0" key="CommitChangelistDialog2" timestamp="1595627752647">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="790" y="33" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595464413634" />
+    <state x="790" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595627752647" />
     <state x="368" y="87" key="MergeDialog" timestamp="1595463107813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -134,14 +152,34 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="983" y="162" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595459414223" />
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595464418545">
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595627773960">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595464418545" />
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595627773960" />
+    <state x="1247" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595627528344">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1247" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595627528344" />
+    <state x="1236" y="308" key="git4idea.merge.GitMergeDialog" timestamp="1595627444984">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1236" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595627444984" />
     <state x="422" y="303" key="git4idea.merge.GitPullDialog" timestamp="1595459440008">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="422" y="303" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595459440008" />
+    <state x="1229" y="371" key="git4idea.rebase.GitRebaseDialog" timestamp="1595627429712">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1229" y="371" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595627429712" />
+    <state x="1248" y="415" key="git4idea.ui.GitResetDialog" timestamp="1595627555608">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1248" y="415" key="git4idea.ui.GitResetDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595627555608" />
+    <state x="1256" y="424" key="git4idea.ui.GitStashDialog" timestamp="1595627501641">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1256" y="424" key="git4idea.ui.GitStashDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595627501641" />
     <state x="1016" y="245" key="run.anything.popup" timestamp="1595463699961">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

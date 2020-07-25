@@ -24,30 +24,10 @@ function remove(ID) {
 	return db("howtodos").where({ id: ID }).del();
 }
 
-function findRating() {
-	return db("ratings as r")
-		.leftJoin("howtodos as h", "h.id", "r.howtodos_id")
-		.select("r.*");
-}
-
-function findRatingBy(ID) {
-	return db("ratings as r")
-		.where("r.id", ID)
-		.join("howtodos as h", "h.id", "r.howtodos_id")
-		.select("r.id");
-}
-
-function addRating(rating) {
-	return db("ratings as r").insert(rating).then((id) => { return findRatingBy(id[0]) })
-}
-
 module.exports = {
 	find,
 	findById,
 	remove,
 	add,
 	update,
-	findRatingBy,
-	findRating,
-	addRating
 };

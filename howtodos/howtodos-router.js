@@ -28,29 +28,20 @@ router.get("/:id", async (req, res, next) => {
 	}
 });
 
-router.get("/:id/ratings", async (req, res, next) => {
-	try {
-		const rating = await Howtodos.findRatingBy(req.params.id);
+// router.get("/:id/ratings", async (req, res, next) => {
+// 	try {
+// 		const rating = await Howtodos.findRatingBy(req.params.id);
 
-		if (!rating) {
-			return res.status(404).json({
-				message: "No rating is found.",
-			});
-		}
-		res.json(rating);
-	} catch (err) {
-		next(err);
-	}
-});
-
-router.post("/id/ratings", async (req, res, next) => {
-	try {
-		const newRating = await Howtodos.addRating(req.body);
-		res.json(newRating);
-	} catch (err) {
-		next(err);
-	}
-});
+// 		if (!rating) {
+// 			return res.status(404).json({
+// 				message: "No rating is found.",
+// 			});
+// 		}
+// 		res.json(rating);
+// 	} catch (err) {
+// 		next(err);
+// 	}
+// });
 
 router.post("/", (req, res) => {
 	const newLifehack = req.body;
