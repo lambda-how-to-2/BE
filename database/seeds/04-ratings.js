@@ -9,7 +9,7 @@ exports.seed = function (knex) {
 			user_id: 1,
 		},
 		{
-			user_id: 2,
+			user_id: 1,
 			howtodos_id: 2,
 			rating: 5,
 			description:

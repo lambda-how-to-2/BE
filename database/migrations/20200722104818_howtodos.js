@@ -8,7 +8,7 @@ exports.up = async function (knex) {
 		})
 		.createTable("ratings", (table) => {
 			table.increments();
-			table.integer("rating");
+			table.integer("rating").notNullable();
 			table.text("description");
 			table
 				.integer("howtodos_id")
@@ -17,7 +17,7 @@ exports.up = async function (knex) {
 				.references("id")
 				.inTable("howtodos")
 				.onDelete("RESTRICT")
-				.onUpdate("CASCADE")
+				.onUpdate("CASCADE");
 
 			table
 				.integer("user_id")
@@ -26,13 +26,10 @@ exports.up = async function (knex) {
 				.references("id")
 				.inTable("users")
 				.onDelete("RESTRICT")
-				.onUpdate("CASCADE")
-
+				.onUpdate("CASCADE");
 		});
 };
 
 exports.down = function (knex) {
-	return knex.schema
-		.dropTableIfExists("ratings")
-		.dropTableIfExists("howtodos");
+	return knex.schema.dropTableIfExists("ratings").dropTableIfExists("howtodos");
 };

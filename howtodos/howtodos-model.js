@@ -23,19 +23,6 @@ function update(howtodo, ID) {
 function remove(ID) {
 	return db("howtodos").where({ id: ID }).del();
 }
-function findRating() {
-	return db("ratings as r")
-		.join("howtodos as h", "h.id", "r.howtodos_id")
-		.select("r.id");
-}
-
-function findRatingBy(id) {
-	return db("ratings").where({id}).first()
-		// .where("r.id", id)
-		// .join("howtodos as h", "h.id", "r.howtodos_id")
-		// .select("r.id");
-}
-
 
 module.exports = {
 	find,
@@ -43,6 +30,4 @@ module.exports = {
 	remove,
 	add,
 	update,
-	findRatingBy,
-	findRating,
 };
