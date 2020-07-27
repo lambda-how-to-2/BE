@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9b93fcb1-03f1-4ca2-ba21-4469e38cfaaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/howtodos.db3" beforeDir="false" afterPath="$PROJECT_DIR$/database/howtodos.db3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/howtodos/howtodos-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/howtodos/howtodos-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratings/rating-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/ratings/rating-model.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +67,7 @@
       <updated>1595439551862</updated>
       <workItem from="1595439553383" duration="3868000" />
       <workItem from="1595621547559" duration="4977000" />
+      <workItem from="1595880204354" duration="6769000" />
     </task>
     <task id="LOCAL-00001" summary="Working backend API!!!!!">
       <created>1595442732701</created>
@@ -121,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595627811500</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="database added and seeded">
+      <created>1595655331900</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595655331900</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,26 +155,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="759" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1595459364001" />
-    <state x="790" y="0" key="CommitChangelistDialog2" timestamp="1595627810504">
+    <state x="790" y="0" key="CommitChangelistDialog2" timestamp="1595655330725">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="790" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595627810504" />
+    <state x="790" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595655330725" />
     <state x="368" y="87" key="MergeDialog" timestamp="1595463107813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="368" y="87" key="MergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595463107813" />
-    <state x="1064" y="232" key="MultipleFileMergeDialog" timestamp="1595463202674">
+    <state x="1064" y="232" key="MultipleFileMergeDialog" timestamp="1595655380994">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1064" y="232" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595463202674" />
+    <state x="1064" y="232" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595655380994" />
     <state x="983" y="162" key="RollbackChangesDialog" timestamp="1595459414223">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="983" y="162" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595459414223" />
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595627817058">
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595655342887">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595627817058" />
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595655342887" />
     <state x="1053" y="101" width="774" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1595627937299">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -176,10 +187,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1236" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595627444984" />
-    <state x="422" y="303" key="git4idea.merge.GitPullDialog" timestamp="1595655309305">
+    <state x="422" y="303" key="git4idea.merge.GitPullDialog" timestamp="1595880311833">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="422" y="303" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595655309305" />
+    <state x="422" y="303" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595880311833" />
     <state x="1229" y="371" key="git4idea.rebase.GitRebaseDialog" timestamp="1595627429712">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
