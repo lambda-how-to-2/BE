@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9b93fcb1-03f1-4ca2-ba21-4469e38cfaaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/howtodos/howtodos-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/howtodos/howtodos-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratings/rating-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/ratings/rating-model.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,10 +198,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1236" y="308" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595627444984" />
-    <state x="422" y="303" key="git4idea.merge.GitPullDialog" timestamp="1595880311833">
+    <state x="422" y="303" key="git4idea.merge.GitPullDialog" timestamp="1595913301822">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="422" y="303" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595880311833" />
+    <state x="422" y="303" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595913301822" />
     <state x="1229" y="371" key="git4idea.rebase.GitRebaseDialog" timestamp="1595627429712">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

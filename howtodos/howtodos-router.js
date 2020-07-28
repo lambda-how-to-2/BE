@@ -1,6 +1,7 @@
 const express = require("express");
 
 const Howtodos = require("./howtodos-model.js");
+const ratings = require('../ratings/rating-model')
 
 const router = express.Router();
 
@@ -13,16 +14,38 @@ router.get("/", async (req, res, next) => {
 	}
 });
 
+// router.get("/:id", async (req, res, next) => {
+// 	try {
+// 		const lifehack = await Howtodos.findById(req.params.id);
+// 		if (!lifehack) {
+// 			return res.status(404).json({
+// 				message: "No lifehack is found.",
+// 			});
+// 		}
+// 		console.log(req.params.id);
+// 		res.json(lifehack);
+// 	} catch (err) {
+// 		next(err);
+// 	}
+// });
+
 router.get("/:id", async (req, res, next) => {
 	try {
-		const lifehack = await Howtodos.findById(req.params.id);
+		const id = req.params.id
+		const lifehack = await Howtodos.findById(id);
+		const rating = await ratings.findRatingBy(id)
 		if (!lifehack) {
 			return res.status(404).json({
 				message: "No lifehack is found.",
 			});
 		}
 		console.log(req.params.id);
-		res.json(lifehack);
+		console.log(rating)
+		const payload = {
+			lifehack,
+			rating
+		}
+		res.json(payload)
 	} catch (err) {
 		next(err);
 	}
@@ -56,7 +79,7 @@ router.post("/", (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
-	const { id } = req.params;
+	const id = req.params.id;
 	const changes = req.body;
 
 	Howtodos.findById(id)
@@ -77,7 +100,7 @@ router.put("/:id", (req, res) => {
 });
 
 router.delete("/:id", (req, res) => {
-	const { id } = req.params;
+	const id = req.params.id;
 
 	Howtodos.remove(id)
 		.then((deleted) => {

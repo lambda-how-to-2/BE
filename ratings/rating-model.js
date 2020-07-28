@@ -9,15 +9,12 @@ function findRating() {
 
 function findRatingBy(ID) {
 	return db("ratings as r")
-		.where("r.id", ID)
+		.where("r.howtodos_id", ID)
 		.join("howtodos as h", "h.id", "r.howtodos_id")
 		.join("users as u", "u.id", "r.howtodos_id")
 		.select(
 			"r.rating",
 			"u.email",
-			"h.title",
-			"h.description",
-			"h.author",
 			"r.description"
 		); //displaying only one description, can't display both?!
 }
