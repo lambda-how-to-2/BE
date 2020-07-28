@@ -19,13 +19,14 @@ https://how-to-2-team-win.herokuapp.com/api
 
 # Lifehack endpoints
 
-| Request | URL               | Description                               |
-| ------- | ----------------- | ----------------------------------------- |
-| GET     | api/howtodos      | get all lifehacks (needs to be logged in) |
-| POST    | api/howtodos      | post new lifehacks (requires auth)        |
-| GET     | api/howtodos/:id  | get specific lifehack                     |
-| PUT     | api/howtodos/:id  | edit specific lifehack                    |
-| DELETE  | api/howtodos/:id  | delete specific lifehack                  |
+| Request | URL                      | Description                               |
+| ------- | ------------------------ | ----------------------------------------- |
+| GET     | api/howtodos             | get all lifehacks (needs to be logged in) |
+| POST    | api/howtodos             | post new lifehacks (requires auth)        |
+| GET     | api/howtodos/:id         | get specific lifehack                     |
+| GET     | api/howtodos/:id/ratings |
+| PUT     | api/howtodos/:id         | edit specific lifehack                    |
+| DELETE  | api/howtodos/:id         | delete specific lifehack                  |
 
 # Ratings Endpoints (some of these endpoints are pending updates, message will be removed when finished)
 
