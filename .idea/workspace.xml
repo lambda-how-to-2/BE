@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b93fcb1-03f1-4ca2-ba21-4469e38cfaaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/howtodos/howtodos-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/howtodos/howtodos-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratings/rating-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/ratings/rating-model.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595977889137</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added node modules to gitignore">
+      <created>1595978519521</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595978519521</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added node modules to gitignore">
+      <created>1595978806147</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595978806147</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,17 +176,18 @@
     <MESSAGE value="database added" />
     <MESSAGE value="database added and seeded" />
     <MESSAGE value="updated howto route and rating model to send lifehack and ratings for that lifehack upon findById request to howtodos route." />
-    <option name="LAST_COMMIT_MESSAGE" value="updated howto route and rating model to send lifehack and ratings for that lifehack upon findById request to howtodos route." />
+    <MESSAGE value="added node modules to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added node modules to gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="759" y="183" key="#Notifications" timestamp="1595459364001">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="759" y="183" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1595459364001" />
-    <state x="673" y="0" key="CommitChangelistDialog2" timestamp="1595978703758">
+    <state x="673" y="0" key="CommitChangelistDialog2" timestamp="1595978769879">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="673" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595978703758" />
+    <state x="673" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1595978769879" />
     <state x="368" y="87" key="MergeDialog" timestamp="1595463107813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -184,10 +200,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="983" y="162" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595459414223" />
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595978524939">
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595978815987">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595978524939" />
+    <state x="759" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595978815987" />
     <state x="1053" y="101" width="774" height="856" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1595627937299">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

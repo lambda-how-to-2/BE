@@ -14,38 +14,38 @@ router.get("/", async (req, res, next) => {
 	}
 });
 
-// router.get("/:id", async (req, res, next) => {
-// 	try {
-// 		const lifehack = await Howtodos.findById(req.params.id);
-// 		if (!lifehack) {
-// 			return res.status(404).json({
-// 				message: "No lifehack is found.",
-// 			});
-// 		}
-// 		console.log(req.params.id);
-// 		res.json(lifehack);
-// 	} catch (err) {
-// 		next(err);
-// 	}
-// });
-
 router.get("/:id", async (req, res, next) => {
 	try {
-		const id = req.params.id
-		const lifehack = await Howtodos.findById(id);
-		const rating = await ratings.findRatingBy(id)
+		const lifehack = await Howtodos.findById(req.params.id);
 		if (!lifehack) {
 			return res.status(404).json({
 				message: "No lifehack is found.",
 			});
 		}
 		console.log(req.params.id);
+		res.json(lifehack);
+	} catch (err) {
+		next(err);
+	}
+});
+
+router.get("/:id/ratings", async (req, res, next) => {
+	try {
+		const id = req.params.id
+		// const lifehack = await Howtodos.findById(id);
+		const rating = await ratings.findRatingByLifehack(id)
+		// if (!lifehack) {
+		// 	return res.status(404).json({
+		// 		message: "No lifehack is found.",
+		// 	});
+		// }
+		console.log(req.params.id);
 		console.log(rating)
-		const payload = {
-			lifehack,
-			rating
-		}
-		res.json(payload)
+		// const payload = {
+		// 	lifehack,
+		// 	rating
+		// }
+		res.json(rating)
 	} catch (err) {
 		next(err);
 	}
