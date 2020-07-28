@@ -24,7 +24,7 @@ https://how-to-2-team-win.herokuapp.com/api
 | GET     | api/howtodos             | get all lifehacks (needs to be logged in) |
 | POST    | api/howtodos             | post new lifehacks (requires auth)        |
 | GET     | api/howtodos/:id         | get specific lifehack                     |
-| GET     | api/howtodos/:id/ratings |
+| GET     | api/howtodos/:id/ratings | get all ratings for lifehack              |
 | PUT     | api/howtodos/:id         | edit specific lifehack                    |
 | DELETE  | api/howtodos/:id         | delete specific lifehack                  |
 
