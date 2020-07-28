@@ -1,12 +1,12 @@
 exports.seed = function (knex) {
-    return knex("users").insert([
-        {
-            email: 'test',
-            password: 'test'
-        },
-        {
-            email: 'test2',
-            password: 'test2'
-        }
-    ]);
+	return knex("users").insert([
+		{
+			email: "test@test.com",
+			password: "test",
+		},
+		{
+			email: "test2@test.com",
+			password: "test2",
+		},
+	]);
 };
