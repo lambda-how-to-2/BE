@@ -32,11 +32,11 @@ https://how-to-2-team-win.herokuapp.com/api
 
 | Request | URL               | Description                               |
 | ------- | ----------------- | ----------------------------------------- |
-| GET     | api/ratings       | get list of all ratings                   |
-| POST    | api/ratings       | post new rating (requires auth)           |
-| GET     | api/ratings/:id   | get specific rating                       |
-| PUT     | api/ratings/:id   | edit specific rating                      |
-| DELETE  | api/ratings/:id   | delete specific rating                    |
+| GET     | api/ratings       | get list of all ratings (working)         |
+| POST    | api/ratings       | post new rating (requires auth, working)  |
+| GET     | api/ratings/:id   | get specific rating (working)             |
+| PUT     | api/ratings/:id   | edit specific rating (pending)            |
+| DELETE  | api/ratings/:id   | delete specific rating (pending)          |
 
 # Table Requirements
 
